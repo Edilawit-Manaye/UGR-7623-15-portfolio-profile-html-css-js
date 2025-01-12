@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger icon -->
+            <ul id="nav-links">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -18,14 +20,18 @@
         </nav>
     </header>
     <main>
-        <h2>this is all abot contact info</h2>
-        <p>If you want to get in touch, please fill out the form below.</p>
-        <form>
-            <label for="name">Name:</label>
+        
+        <h2 class="ii">this is all abot contact info</h2>
+        <p >If you want to get in touch, please fill out the form below.</p>
+        
+        <form class="deva">
+            <section class="edl">
+            <label class="name">Name:</label>
             <input type="text" id="name" name="name">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="text" id="email" name="email">
+            </section>
 
             <label for="budget">Budget:</label>
             <input type="text" id="budget" name="budget">
@@ -36,8 +42,9 @@
             <button type="submit">Submit</button>
         </form>
     </main>
-    <footer>
+    <footer class="mesi">
         <p>© Edilawit Manaye 2024. All rights reserved.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

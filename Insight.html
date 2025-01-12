@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insight</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger icon -->
+            <ul id="nav-links">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -19,14 +21,14 @@
     </header>
     <main>
         <div class="insight-blocks">
-            <div class="block">
+            <div class="block" id="oo">
                 <img src="images/workSpace.jpg" alt="A tidy workspace with a laptop, plants " width="300" height="300">
                 <div>
                   <h2>about this image</h2>
                   <p>My workspace where I brainstorm ideas and write code.</p>
                </div>
             </div>
-            <div class="block">
+            <div class="block" id="pp">
                 <video controls width="300">
                     <source src="video/RockHw.mp4" type="video/mp4">
                 </video>
@@ -40,7 +42,7 @@
             </div>
         </div>
         <div>
-          <h2>all about this</h2>
+          <h2 class="bb">all about this</h2>
           <p>In my journey as a web developer, I've learned that creativity and <br>
              exploration go hand in hand. The Rock Hewan Church video highlights <br>
              my passion for discovering unique places that inspire my work.I believe <br>
@@ -53,5 +55,6 @@
     <footer>
         <p>© Edilawit Manaye 2024. All rights reserved.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
